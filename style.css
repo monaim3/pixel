@@ -1,0 +1,414 @@
+body{
+   font-family: 'Roboto', sans-serif;
+ }
+
+ /* header area */
+ header{
+     background-color: #19283f;
+ }
+ header .navbar{
+  width: 75%;
+  margin: auto;
+
+ }
+ header .navbar  button{
+   background-color: #ff3150;
+   border:none;
+   border-radius: 10px;
+   margin-left: 13px;
+ }
+ header .navbar button a{
+   color: #ffc501;
+   
+   padding: 5px 11px;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: 500;
+}
+header  .text-banner {
+   padding: 130px 0px !important;
+}
+header  .text-banner h4{
+   color: #fff;
+   font-weight: 500;
+   font-size: 33px;
+}
+header  .text-banner p{
+   color: #fff;
+   font-weight: 300;
+   font-size: 12px;
+   margin-top: 14px;
+   margin-bottom: 25px;
+
+}
+header .text-banner button{
+   background-color: #ff3150;
+   border:none;
+   border-radius: 10px;
+  
+
+}
+header  .text-banner button a{
+   color: #ffc501;
+   
+   padding: 5px 11px;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: 500;
+}
+a.nav-link.same{
+     color: #00c7c0;
+}
+a.nav-link{
+    color: #a8b9c0;
+}
+hr{
+   width: 8%;
+   border:2px solid #14cac4;
+   
+   margin: auto;
+  
+   
+}
+/* Good area */
+
+.good .text-box h1{
+
+font-size: 125px;
+
+color: #eff7fa;
+
+}
+.good .text-box i{
+
+color: #14cac4;
+
+font-size: 40px;
+
+}
+.good .text-box .inner{
+   
+margin-top: -77px;
+}
+.good .text-box p{
+   color: #ddd;
+    font-size: 14px;
+}
+.good .text-box h3{
+
+margin-top: 10px;
+
+color: #ffc501;
+
+font-size: 23px;
+}
+.good .text-box img{
+   
+}
+
+/* testiomonal section */
+.make{
+     background-color: #eff7fa;
+}
+.make .menu{
+
+}
+.make .menu ul {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+.make .menu ul li{
+  list-style: none;
+  
+  padding: 5px 15px;
+}
+.make .menu ul li a{
+   text-decoration: none;
+  color: #c1cfd4;
+   
+  transition: .5s;
+}
+.make .menu ul li  .active{
+   color: #ff8c2e;
+   background: #ff3150;
+   padding: 10px 8px;
+   border-radius: 10px;
+}
+.make .menu ul li a:hover{
+   color: #ff8c2e;
+   background: #ff3150;
+   padding: 10px 8px;
+   border-radius: 10px;
+   
+}
+
+.make .box-item-test{
+    width:100%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 15px;
+    padding-left: 0;
+   
+  
+}
+.make button{
+   background-color: #ff3150;
+   border: none;
+   
+   margin-left: 13px;
+   
+
+}
+img{
+   max-width: 100%;
+}
+.make .btn2{
+   color: #ffc501;
+   padding: 9px 24px;
+   /* display: inline-block; */
+   text-decoration: none;
+   font-weight: 500;
+   text-align: center;
+   background-color: #ff3150;
+   border-radius: 10px;
+   width: 15%;
+   margin: auto;
+}
+.make .box-item-test img{
+   width: 100%;
+}
+.make .box-item-test img:hover + .text-inner{
+   display: inline-block;
+}
+
+.make .box-item-test .text-inner{
+       position: absolute;
+       height: 100%;
+       width: 100%;
+       left: 0;
+       top: 0;
+       bottom: 
+       0;
+       right: 0;
+       background-color: #33d1cc;
+       display: block;
+       clear: both;
+       text-align: center;
+      display: none;
+         transition: 3s;
+       transform: scale(1);
+}
+.make .box-item-test .text-inner h5{
+
+   text-align: center;
+   margin-top: 100px;
+   color: #ffff;
+   font-weight: 500;
+
+}
+.make .box-item-test .text-inner p{
+   
+}
+
+
+/* stuf area */
+.stuff .stuff-text{
+
+padding: 50px 52px;
+
+margin-top: 20px;
+}
+.stuff .stuff-text h1{
+
+}
+.stuff .stuff-text p{
+
+font-size: 13px;
+}
+.stuff .stuff-text button{
+   background-color: #ff3150;
+   border:none;
+   border-radius: 10px;
+   margin-left: 13px;
+}
+.stuff .stuff-text button a{
+   color: #ffc501;
+   
+   padding: 5px 11px;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: 500;
+}
+
+/* team2 area */
+
+.team2{
+
+   background-color: #eff7fa;
+}
+.team2 h1{
+
+color: #ffc501;
+}
+.team2 p{
+   
+font-size: 16px;
+   
+padding: 10px 10px;
+   
+margin-bottom: 45px;
+}
+
+/* partnership area */
+
+.partner{
+
+}
+.partner .partnener-item{
+   display: flex;
+   justify-content: center;
+
+}
+.partner .partnener-item img{
+   padding: 5px 48px;
+}
+ /* project area */
+
+
+ .project {
+ background-color: #19283f;
+ text-align: center;
+ }
+ .project h1{
+     color: #fff;
+     font-size: 26px;
+ }
+ .project p{
+  font-weight: 300;
+  font-size: 14px;
+ }
+ .project button{
+   background-color: #ff3150;
+   border:none;
+   border-radius: 10px;
+   margin-left: 13px;
+ }
+ .project button a{
+   color: #ffc501;
+   
+   padding: 5px 11px;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: 500;
+ }
+ /* blog item */
+ .blog{}
+ .blog .blog-item{}
+ .blog .blog-item p{
+    /* content: close-quote; */
+    color: #a0a0a0;
+    font-size: 14px;
+    margin-top: 10px;
+}
+ .blog .blog-item h6{
+    margin-top: -5px;
+}
+ .blog .blog-item img{
+    width: 100%;
+}
+.blog button{
+   background-color: #ff3150;
+   border: none;
+   border-radius: 10px;
+   margin-left: 124px;
+   margin-top: 40px;
+   /* margin: auto; */
+   text-align: center;
+}
+.blog button a{
+   color: #ffc501;
+   
+   padding: 5px 11px;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: 500;
+   text-align: center;
+}
+/* subscribe section */
+.subscribe{
+background-color: #ffc400;
+}
+.subscribe .sub{
+   display: flex;
+   justify-content: center;
+   padding: 5px 10px;
+}
+.subscribe p{
+   margin-left: 52px;
+   color: #fff;
+   /* border: 1px solid; */
+   border-bottom: 1px solid #fff;
+   width: 39%;
+   margin-top: 0px;
+}
+.subscribe button{
+   background-color: #19283f;
+   border:none;
+   border-radius: 10px;
+   margin-left: 101px;
+}
+.subscribe button a{
+   color: #ffc501;
+   padding: 0px 12px;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: 500;
+}
+
+/* footer area */
+
+footer{
+
+    background-color: #19283f;
+    color: #6b7985;
+}
+footer .frist{}
+footer .frist img{}
+footer .frist p{
+    font-size: 14px;
+    margin-top: 18px;
+}
+footer .list{}
+footer .list  ul {}
+footer .list  ul li{
+    list-style: none;
+    line-height: 36px;
+}
+footer .corner{}
+footer .corner h6{}
+footer .corner p{}
+footer .corner button{
+   background-color: #ff3150;
+   border:none;
+   border-radius: 10px;
+ 
+}
+footer .corner button a{
+   color: #ffc501;
+   
+   padding: 5px 11px;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: 500;
+}
+footer .corner .social {
+   padding: 10px 10px;
+}
+footer .corner .social i {
+    
+    font-size: 36px;
+   margin-top: 7px;
+    margin-left: 10px;
+}
+
